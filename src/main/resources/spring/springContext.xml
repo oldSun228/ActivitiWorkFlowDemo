@@ -21,7 +21,7 @@
 	<!-- 静态资源文件，不会被Spring MVC拦截 -->
 	<mvc:default-servlet-handler />
 	<mvc:resources location="/resources/" mapping="/resources/**" />
-	<bean id="springContextHelper" class="com.zr.workflow.activiti.utils.ApplicationContextHandler"></bean>
+	<bean id="springContextHelper" class="com.zr.workflow.activiti.util.ApplicationContextHandler"></bean>
 	
 	<!-- 视图页面配置 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
